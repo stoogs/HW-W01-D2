@@ -62,10 +62,10 @@ def volume_of_cube(num1)
 end
 
 #Given the radius of a sphere calculate the volume
-# def volume_of_sphere(num1)
-#   result = (4/3) * Math::PI * (num1*num1*num1)
-#   return result.round(2)
-# end
+def volume_of_sphere(num1)
+  result = 4/3.round(2) * Math::PI * (num1*num1*num1)
+  return result.round(2)
+end
 
 #Given a value in farenheit, convert this into celsius.
 def fahrenheit_to_celsius(num1)
